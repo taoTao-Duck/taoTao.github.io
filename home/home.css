@@ -1,0 +1,96 @@
+.duck {
+    /*妈的，学会建模后要把鸭子搞成立体的*/
+    display: flex;
+    /*弹性盒子*/
+    align-items: center;
+    justify-content: center;
+    /*控制主轴上所有flex项目对齐*/
+
+}
+
+.duck img {
+    width: 100px;
+    height: 96px;
+    border-radius: 50%;
+    /*边框圆角程度*/
+    box-shadow: 5px 5px #b12a5b;
+    /*阴影设置*/
+    opacity: 0.5;
+    /*透明度0到1*/
+    cursor: pointer;
+
+
+}
+
+.duck img:hover {
+    width: 100px;
+    height: 96px;
+    border-radius: 50%;
+    /*边框圆角程度*/
+    box-shadow: 5px 5px #b12a5b;
+    /*阴影设置*/
+    opacity: 0.9;
+    /*透明度0到1*/
+
+}
+
+
+
+.box1 {
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    /*文字居中*/
+    font-size: 36px;
+    height: 100px;
+    text-shadow: 5px 5px #b12a5b;
+
+}
+
+.contain {
+    display: flex;
+    font-size: 30px;
+
+    justify-content: space-between;
+    margin: 1em;
+
+
+
+
+
+}
+
+.item {
+
+
+    width: 150px;
+    height: 400px;
+    box-shadow: 20px 20px #b12a5b;
+    background-color: #e96152;
+    border-radius: 15%;
+    opacity: 0.5;
+
+
+}
+
+.item:hover {
+    width: 150px;
+    height: 400px;
+    box-shadow: 5px 20px #b12a5b;
+    background-color: #e96152;
+    border-radius: 15%;
+    opacity: 0.9;
+}
+
+
+
+body {
+
+    background-image: linear-gradient(to right,
+            #ff8177 0%,
+            #ff867a 0%,
+            #ff8c7f 21%,
+            #f99185 52%,
+            #cf556c 78%,
+            #b12a5b 100%);
+}

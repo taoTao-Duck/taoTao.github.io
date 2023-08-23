@@ -1,0 +1,23 @@
+body {
+    padding-top: 5%;
+    padding-left: 20%;
+    background-color: #e0726a;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 5px 5px #ef4343;
+}
+
+head {
+    padding-left: 30%;
+}
+
+.box {
+    width: 600px;
+    height: 300px;
+
+
+    text-shadow: none;
+    background-color: #ebccc9;
+    box-shadow: 20px 20px #ef4343;
+    font-size: 1.5rem;
+}
