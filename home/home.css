@@ -1,10 +1,10 @@
-.duck {
-    /*妈的，学会建模后要把鸭子搞成立体的*/
+/*.duck {
+
     display: flex;
-    /*弹性盒子*/
+
     align-items: center;
     justify-content: center;
-    /*控制主轴上所有flex项目对齐*/
+
 
 }
 
@@ -12,59 +12,58 @@
     width: 100px;
     height: 96px;
     border-radius: 50%;
-    /*边框圆角程度*/
+
     box-shadow: 5px 5px #b12a5b;
-    /*阴影设置*/
+
     opacity: 0.5;
-    /*透明度0到1*/
+    
     cursor: pointer;
 
 
 }
 
+
+
+
 .duck img:hover {
     width: 100px;
     height: 96px;
-    border-radius: 50%;
-    /*边框圆角程度*/
+    border-radius: 50%;*/
+/*边框圆角程度*/
+/*
     box-shadow: 5px 5px #b12a5b;
     /*阴影设置*/
+/*
     opacity: 0.9;
     /*透明度0到1*/
-
+/*
 }
 
+*/
 
 
-.box1 {
+.title {
+    margin-bottom: 50px;
     color: white;
     line-height: 100px;
     text-align: center;
     /*文字居中*/
-    font-size: 36px;
+    font-size: 50px;
     height: 100px;
     text-shadow: 5px 5px #b12a5b;
 
 }
 
-.contain {
-    display: flex;
-    font-size: 30px;
-
-    justify-content: space-between;
-    margin: 1em;
-
-
-
-
-
-}
 
 .item {
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: auto;
+    /*居中*/
+    margin-right: auto;
+    width: 700px;
 
-
-    width: 150px;
-    height: 400px;
+    height: 300px;
     box-shadow: 20px 20px #b12a5b;
     background-color: #e96152;
     border-radius: 15%;
@@ -74,8 +73,11 @@
 }
 
 .item:hover {
-    width: 150px;
-    height: 400px;
+    margin-left: auto;
+    /*居中*/
+    margin-right: auto;
+    width: 70%;
+    height: 300px;
     box-shadow: 5px 20px #b12a5b;
     background-color: #e96152;
     border-radius: 15%;

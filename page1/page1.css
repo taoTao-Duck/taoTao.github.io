@@ -1,19 +1,22 @@
 body {
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 5%;
     padding-left: 20%;
     background-color: #e0726a;
-    font-size: 2rem;
     color: white;
+    font-size: 100%;
     text-shadow: 5px 5px #ef4343;
 }
 
-head {
-    padding-left: 30%;
+h1 {
+    padding-bottom: 20px;
 }
 
+
 .box {
-    width: 600px;
-    height: 300px;
+    width: 70%;
+    height: 400px;
 
 
     text-shadow: none;
